@@ -1,0 +1,30 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=47e01067
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Windows XP Home Edition-s001.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s002.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s003.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s004.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s005.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s006.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s007.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s008.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s009.vmdk"
+RW 8323072 SPARSE "Windows XP Home Edition-s010.vmdk"
+RW 655360 SPARSE "Windows XP Home Edition-s011.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.cylinders = "16383"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "84e9502db5d8f751aa59b16947e01067"
+ddb.uuid = "60 00 C2 96 de f0 08 df-15 e9 41 9d ae c3 1a 6b"
+ddb.virtualHWVersion = "16"
